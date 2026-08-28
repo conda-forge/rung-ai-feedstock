@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.2"
+  version: "0.7.1"
 
 package:
   name: rung-ai
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/rung-ai/rung_ai-${{ version }}.tar.gz
-  sha256: 915968465648929bbeaa4c30bceda787a8aa924b24fd19ea24cb997b1398a211
+  sha256: e469b840a35c1becb6ddc696cc84737d60ac2b07c40574b5628a4d4f82cc71b3
 
 build:
   noarch: python
